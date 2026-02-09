@@ -1,0 +1,88 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%) !important;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  height: 60px;
+  margin-right: 12px;
+}
+.nav-link.active, .nav-link:hover {
+  color: #fbbf24 !important;
+}
+
+.card-title {
+  color: #4f46e5;
+  font-weight: bold;
+}
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(79,70,229,0.08);
+}
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+}
+.table-dark th {
+  background: #6366f1 !important;
+  color: #fff !important;
+}
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+}
+.btn-success {
+  background: #10b981;
+  border: none;
+}
+.btn-info {
+  background: #3b82f6;
+  border: none;
+}
+.btn-warning {
+  background: #fbbf24;
+  border: none;
+}
+.btn-primary {
+  background: #6366f1;
+  border: none;
+}
+.btn-danger {
+  background: #ef4444;
+  border: none;
+}
+.lead {
+  color: #6366f1;
+}
+.App-link {
+  color: #3b82f6;
+  font-weight: 600;
+}
+.App-link:hover {
+  color: #fbbf24;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
